@@ -1,5 +1,5 @@
 import "./Education.css";
-
+import certficate from "../../assets/pdf/Internforte.pdf";
 const Education = () => {
   return (
     <section className="education" id="education">
@@ -52,7 +52,7 @@ const Education = () => {
         <div className="certificate">
           📜 Full Stack Development – Internforte
           <div className="button">
-            <a target="_blank" href="src/assets/pdf/Internforte.pdf" >Download</a>
+            <a target="_blank" href={certficate} >Download</a>
           </div>
           
         </div>
