@@ -1,6 +1,6 @@
 import "./Hero.css";
 import profile from "../../assets/images/Profile.jpg";
-
+import resume from "../../assets/pdf/Velan_Resume.pdf"
 const Hero = () => {
   return (
     <section className="hero" id="home">
@@ -29,7 +29,7 @@ const Hero = () => {
 
         <div className="hero-buttons">
 
-          <a target="_blank" href="src\assets\pdf\Velan_Resume.pdf" className="primary-btn">
+          <a target="_blank" href={resume} className="primary-btn">
             Download Resume
           </a>
 
