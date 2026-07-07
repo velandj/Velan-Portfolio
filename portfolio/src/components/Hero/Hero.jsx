@@ -1,5 +1,5 @@
 import "./Hero.css";
-import profile from "../../assets/images/profile.jpg";
+import profile from "../../assets/images/Profile.jpg";
 
 const Hero = () => {
   return (
@@ -29,7 +29,7 @@ const Hero = () => {
 
         <div className="hero-buttons">
 
-          <a href="src\assets\pdf\Velan_Resume.pdf" className="primary-btn">
+          <a target="_blank" href="src\assets\pdf\Velan_Resume.pdf" className="primary-btn">
             Download Resume
           </a>
 

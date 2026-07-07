@@ -46,11 +46,15 @@ const Education = () => {
         </div>
 
       </div>
-
+       
       <div className="certifications">
 
         <div className="certificate">
           📜 Full Stack Development – Internforte
+          <div className="button">
+            <a target="_blank" href="src/assets/pdf/Internforte.pdf" >Download</a>
+          </div>
+          
         </div>
 
         <div className="certificate">

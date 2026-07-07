@@ -70,7 +70,8 @@
 
     border-radius:10px;
 
-    transition:.3s;
+    transition:0.3s;
+    display: flex;
 }
 
 .certificate:hover{
@@ -79,7 +80,15 @@
 
     transform:translateY(-5px);
 }
-
+.button{
+    background-color: #38bdf8;
+    border-radius: 5px;
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    cursor: pointer;
+}
 @media(max-width:768px){
 
 .certifications{

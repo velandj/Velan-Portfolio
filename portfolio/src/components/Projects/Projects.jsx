@@ -46,7 +46,7 @@ const Projects = () => {
             </div>
 
             <div className="project-buttons">
-              <a href={project.github}>GitHub</a>
+              <a target="_blank" href={project.github}>GitHub</a>
 
               {project.live && (
                 <a href={project.live}>Live Demo</a>
